@@ -3,12 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package javacollectionframework.collection.list;
+package javacollectionframework.collections.map.hashmap;
 
 /**
  *
  * @author cemdirman
  */
-public class TestList {
+public class TestHashMap {
     
 }
