@@ -7,6 +7,6 @@
 - **veri_yapilari** paketi altında ise Java'nın kendi içerisinde bulunan bu yapıların aslında nasıl çalıştığını anlayabileceğiniz bizler tarafından kodlanmış örnekleri bulunmaktadır.
 
 ### **Projeye Katkı Sağlayanlar**
-- Abdulrahman Alabrash
+- Abdulrahman ALABRASH
 - Ahmet Emre DEMİRŞEN
 - Enes AYDOĞDU
