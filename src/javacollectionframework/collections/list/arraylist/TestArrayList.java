@@ -24,6 +24,7 @@ public class TestArrayList {
         sayilar.add(3);
         sayilar.add(47);
         sayilar.add(57);
+        sayilar.add(5, 24);
         
         Iterator iterator = sayilar.iterator();
         iterator.forEachRemaining(System.out::println);
