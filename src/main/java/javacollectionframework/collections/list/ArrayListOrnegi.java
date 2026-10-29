@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package javacollectionframework.collections.list.arraylist;
+package javacollectionframework.collections.list;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -14,7 +14,7 @@ import java.util.List;
  *
  * @author cemdirman
  */
-public class TestArrayList {
+public class ArrayListOrnegi {
     
     public static void main(String[] args) {
         List sayilar = new ArrayList();

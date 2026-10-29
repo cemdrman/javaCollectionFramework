@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package javacollectionframework.collections.list.vector;
+package javacollectionframework.collections.list;
 
 import java.util.List;
 import java.util.Vector;
@@ -12,7 +12,7 @@ import java.util.Vector;
  *
  * @author cemdirman
  */
-public class TestVector {
+public class VectorOrnegi {
     public static void main(String[] args) {
         List vector = new Vector();
         vector.add("Fenerbahçe");

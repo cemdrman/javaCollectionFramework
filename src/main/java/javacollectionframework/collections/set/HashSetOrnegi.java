@@ -3,12 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package javacollectionframework.collections.set.hashset;
+package javacollectionframework.collections.set;
 
 /**
  *
  * @author cemdirman
  */
-public class TestHashSet {
+public class HashSetOrnegi {
     
 }

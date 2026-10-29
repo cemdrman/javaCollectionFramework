@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package javacollectionframework.collections.list.linkedlist;
+package javacollectionframework.collections.list;
 
 import java.util.LinkedList;
 
@@ -11,7 +11,7 @@ import java.util.LinkedList;
  *
  * @author cemdirman
  */
-public class TestLinkedList {
+public class LinkedListOrnegi {
     public static void main(String[] args) {
         LinkedList<String> linkedList = new LinkedList();
         linkedList.add("İstanbul");

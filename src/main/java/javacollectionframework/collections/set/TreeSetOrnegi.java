@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package javacollectionframework.collections.set.treeset;
+package javacollectionframework.collections.set;
 
 import java.util.Iterator;
 import java.util.Set;
@@ -22,7 +22,7 @@ import java.util.TreeSet;
  * hem sıralı hem de benzersiz olur.
  *
  */
-public class TestTreeSet {
+public class TreeSetOrnegi {
     public static void main(String[] args) {
         Set<String> treeSet = new TreeSet<>();
         treeSet.add("cem");
