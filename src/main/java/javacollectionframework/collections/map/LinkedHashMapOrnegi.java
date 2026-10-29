@@ -1,5 +1,6 @@
 package javacollectionframework.collections.map;
 
+import java.io.Serial;
 import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.Map;
@@ -30,6 +31,10 @@ public class LinkedHashMapOrnegi {
      * {@code removeEldestEntry}, her {@code put} sonrasında çağrılır.
      */
     static final class LruOnbellek<K, V> extends LinkedHashMap<K, V> {
+        // LinkedHashMap Serializable olduğu için alt sınıf da bir sürüm numarası tanımlamalıdır.
+        @Serial
+        private static final long serialVersionUID = 1L;
+
         private final int kapasite;
 
         LruOnbellek(int kapasite) {
