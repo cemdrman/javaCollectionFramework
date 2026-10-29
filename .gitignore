@@ -1,9 +1,19 @@
-/build/
-# NetBeans specific #
-nbproject/private/
-build/
+# Maven
+target/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.project
+.classpath
+.settings/
+nbproject/
 nbbuild/
-dist/
 nbdist/
 nbactions.xml
 nb-configuration.xml
+
+# İşletim sistemi
+.DS_Store
+Thumbs.db
