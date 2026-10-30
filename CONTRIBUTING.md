@@ -48,3 +48,5 @@ docs: Set dokümanına EnumSet bölümü ekle
 1. Depoyu fork'layın ve `master`'dan yeni bir dal açın.
 2. `./mvnw verify` komutunun başarılı olduğundan emin olun.
 3. Değişikliğinizi ve nedenini açıklayan bir pull request açın.
+
+Gönderdiğiniz katkılar, projenin [MIT Lisansı](LICENSE) kapsamında yayımlanır.

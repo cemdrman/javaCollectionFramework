@@ -13,6 +13,21 @@
     <description>Java Collection Framework için Türkçe örnekler ve konu anlatımları</description>
     <url>https://github.com/cemdrman/java-collection-framework</url>
 
+    <licenses>
+        <license>
+            <name>MIT License</name>
+            <url>https://opensource.org/licenses/MIT</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+
+    <developers>
+        <developer>
+            <name>Cem Dırman</name>
+            <url>https://github.com/cemdrman</url>
+        </developer>
+    </developers>
+
     <properties>
         <!-- Java 25: güncel LTS (Long Term Support) sürümü -->
         <maven.compiler.release>25</maven.compiler.release>

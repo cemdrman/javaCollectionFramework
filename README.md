@@ -118,3 +118,8 @@ Doğal sıralama (Unicode, yanlış)      : [Ankara, Iğdır, Ordu, Sinop, Uşak
 ### **Projeye katkı sağlamak isteyenler iletişime geçebilir.**
 
 Katkı kuralları için [CONTRIBUTING.md](CONTRIBUTING.md) dosyasına bakabilirsiniz.
+
+## Lisans
+
+Bu proje [MIT Lisansı](LICENSE) ile lisanslanmıştır. Kodu ve dokümanları, telif bildirimini
+korumak şartıyla serbestçe kullanabilir, değiştirebilir ve paylaşabilirsiniz.
