@@ -38,6 +38,13 @@ Derleme ve testler:
 ./mvnw -q compile exec:java -Dexec.args="hepsi"    # hepsini sırayla çalıştırır
 ```
 
+Hiç derleme yapmadan, tek bir dosyayla Java 25'in kompakt kaynak dosyalarını
+(`void main()`, otomatik importlar, `IO.println`) denemek için:
+
+```bash
+java ornekler/HizliBaslangic.java
+```
+
 Belirli bir sınıfı doğrudan çalıştırmak için:
 
 ```bash
@@ -72,6 +79,7 @@ Ek kaynak: [OOP Kavramları (PDF)](docs/oop/OOP_Kavramları.pdf)
 ```text
 java-collection-framework
 ├── docs/                         Konu anlatımları
+├── ornekler/HizliBaslangic.java  Java 25 kompakt kaynak dosyası ile hızlı başlangıç
 ├── src/main/java/javacollectionframework
 │   ├── collections/
 │   │   ├── list/                 ArrayList, LinkedList, Vector, Stack
