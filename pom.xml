@@ -70,10 +70,13 @@
                 <version>3.5.3</version>
             </plugin>
             <plugin>
-                <!-- Örnekleri çalıştırmak için: ./mvnw -q compile exec:java -Dexec.mainClass=... -->
+                <!-- Örnek menüsü: ./mvnw -q compile exec:java -Dexec.args="<numara | ad | hepsi>" -->
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>exec-maven-plugin</artifactId>
                 <version>3.5.1</version>
+                <configuration>
+                    <mainClass>javacollectionframework.Calistir</mainClass>
+                </configuration>
             </plugin>
         </plugins>
     </build>

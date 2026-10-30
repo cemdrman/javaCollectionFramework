@@ -29,7 +29,16 @@ Derleme ve testler:
 ./mvnw verify
 ```
 
-Bir örneği çalıştırmak (Windows'ta `mvnw.cmd`):
+Örnek menüsü (Windows'ta `mvnw.cmd`):
+
+```bash
+./mvnw -q compile exec:java                        # bütün örnekleri numaralarıyla listeler
+./mvnw -q compile exec:java -Dexec.args="7"        # 7 numaralı örneği çalıştırır
+./mvnw -q compile exec:java -Dexec.args="treemap"  # adında "treemap" geçen örnekleri çalıştırır
+./mvnw -q compile exec:java -Dexec.args="hepsi"    # hepsini sırayla çalıştırır
+```
+
+Belirli bir sınıfı doğrudan çalıştırmak için:
 
 ```bash
 ./mvnw -q compile exec:java -Dexec.mainClass=javacollectionframework.collections.list.ArrayListOrnegi
