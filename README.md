@@ -19,8 +19,8 @@ kod içi açıklamalar ve konu anlatımlarıyla **Java 25 (LTS)** üzerinden anl
 ## Çalıştırma
 
 ```bash
-git clone https://github.com/cemdrman/javaCollectionFramework.git
-cd javaCollectionFramework
+git clone https://github.com/cemdrman/java-collection-framework.git
+cd java-collection-framework
 ```
 
 Derleme ve testler:
@@ -29,7 +29,23 @@ Derleme ve testler:
 ./mvnw verify
 ```
 
-Bir örneği çalıştırmak (Windows'ta `mvnw.cmd`):
+Örnek menüsü (Windows'ta `mvnw.cmd`):
+
+```bash
+./mvnw -q compile exec:java                        # bütün örnekleri numaralarıyla listeler
+./mvnw -q compile exec:java -Dexec.args="7"        # 7 numaralı örneği çalıştırır
+./mvnw -q compile exec:java -Dexec.args="treemap"  # adında "treemap" geçen örnekleri çalıştırır
+./mvnw -q compile exec:java -Dexec.args="hepsi"    # hepsini sırayla çalıştırır
+```
+
+Hiç derleme yapmadan, tek bir dosyayla Java 25'in kompakt kaynak dosyalarını
+(`void main()`, otomatik importlar, `IO.println`) denemek için:
+
+```bash
+java ornekler/HizliBaslangic.java
+```
+
+Belirli bir sınıfı doğrudan çalıştırmak için:
 
 ```bash
 ./mvnw -q compile exec:java -Dexec.mainClass=javacollectionframework.collections.list.ArrayListOrnegi
@@ -55,14 +71,16 @@ açıp** ilgili sınıfın `main` metodunu çalıştırarak da deneyebilirsiniz.
 | 11 | Eşzamanlı koleksiyonlar: ConcurrentHashMap, BlockingQueue, CopyOnWrite... | [11-concurrent](docs/11-concurrent.md) | [`eszamanli`](src/main/java/javacollectionframework/eszamanli) |
 | 12 | Stream API, Collectors ve **Gatherers** (Java 24+) | [12-stream-api](docs/12-stream-api.md) | [`stream`](src/main/java/javacollectionframework/stream) |
 | 13 | Kendi ArrayList, LinkedList, HashMap ve Stack'imizi yazmak | [13-veri-yapilari](docs/13-veri-yapilari.md) | [`veri_yapilari`](src/main/java/javacollectionframework/veri_yapilari) |
+| 14 | **Alıştırmalar** (çözümleri ve testleriyle) | [14-alistirmalar](docs/14-alistirmalar.md) | [`alistirmalar`](src/main/java/javacollectionframework/alistirmalar) |
 
 Ek kaynak: [OOP Kavramları (PDF)](docs/oop/OOP_Kavramları.pdf)
 
 ## Proje yapısı
 
 ```text
-javaCollectionFramework
+java-collection-framework
 ├── docs/                         Konu anlatımları
+├── ornekler/HizliBaslangic.java  Java 25 kompakt kaynak dosyası ile hızlı başlangıç
 ├── src/main/java/javacollectionframework
 │   ├── collections/
 │   │   ├── list/                 ArrayList, LinkedList, Vector, Stack
@@ -77,8 +95,10 @@ javaCollectionFramework
 │   ├── eszamanli/                java.util.concurrent koleksiyonları
 │   ├── stream/                   Stream API, Collectors, Gatherers
 │   ├── veri_yapilari/            Kendi yazdığımız veri yapıları
+│   ├── alistirmalar/             Alıştırma çözümleri
+│   ├── performans/               Performans karşılaştırması
 │   └── ortak/                    Örneklerin ortak yardımcı sınıfı
-├── src/test/java/...             veri_yapilari JUnit 5 testleri
+├── src/test/java/...             veri_yapilari ve alıştırma testleri (JUnit 5)
 ├── pom.xml
 └── mvnw / mvnw.cmd               Maven Wrapper
 ```
@@ -96,3 +116,10 @@ Doğal sıralama (Unicode, yanlış)      : [Ankara, Iğdır, Ordu, Sinop, Uşak
 ```
 
 ### **Projeye katkı sağlamak isteyenler iletişime geçebilir.**
+
+Katkı kuralları için [CONTRIBUTING.md](CONTRIBUTING.md) dosyasına bakabilirsiniz.
+
+## Lisans
+
+Bu proje [MIT Lisansı](LICENSE) ile lisanslanmıştır. Kodu ve dokümanları, telif bildirimini
+korumak şartıyla serbestçe kullanabilir, değiştirebilir ve paylaşabilirsiniz.

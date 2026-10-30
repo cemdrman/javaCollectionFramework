@@ -11,7 +11,22 @@
 
     <name>Java Collection Framework</name>
     <description>Java Collection Framework için Türkçe örnekler ve konu anlatımları</description>
-    <url>https://github.com/cemdrman/javaCollectionFramework</url>
+    <url>https://github.com/cemdrman/java-collection-framework</url>
+
+    <licenses>
+        <license>
+            <name>MIT License</name>
+            <url>https://opensource.org/licenses/MIT</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+
+    <developers>
+        <developer>
+            <name>Cem Dırman</name>
+            <url>https://github.com/cemdrman</url>
+        </developer>
+    </developers>
 
     <properties>
         <!-- Java 25: güncel LTS (Long Term Support) sürümü -->
@@ -70,10 +85,13 @@
                 <version>3.5.3</version>
             </plugin>
             <plugin>
-                <!-- Örnekleri çalıştırmak için: ./mvnw -q compile exec:java -Dexec.mainClass=... -->
+                <!-- Örnek menüsü: ./mvnw -q compile exec:java -Dexec.args="<numara | ad | hepsi>" -->
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>exec-maven-plugin</artifactId>
                 <version>3.5.1</version>
+                <configuration>
+                    <mainClass>javacollectionframework.Calistir</mainClass>
+                </configuration>
             </plugin>
         </plugins>
     </build>
