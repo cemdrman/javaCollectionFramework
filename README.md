@@ -71,6 +71,7 @@ açıp** ilgili sınıfın `main` metodunu çalıştırarak da deneyebilirsiniz.
 | 11 | Eşzamanlı koleksiyonlar: ConcurrentHashMap, BlockingQueue, CopyOnWrite... | [11-concurrent](docs/11-concurrent.md) | [`eszamanli`](src/main/java/javacollectionframework/eszamanli) |
 | 12 | Stream API, Collectors ve **Gatherers** (Java 24+) | [12-stream-api](docs/12-stream-api.md) | [`stream`](src/main/java/javacollectionframework/stream) |
 | 13 | Kendi ArrayList, LinkedList, HashMap ve Stack'imizi yazmak | [13-veri-yapilari](docs/13-veri-yapilari.md) | [`veri_yapilari`](src/main/java/javacollectionframework/veri_yapilari) |
+| 14 | **Alıştırmalar** (çözümleri ve testleriyle) | [14-alistirmalar](docs/14-alistirmalar.md) | [`alistirmalar`](src/main/java/javacollectionframework/alistirmalar) |
 
 Ek kaynak: [OOP Kavramları (PDF)](docs/oop/OOP_Kavramları.pdf)
 
@@ -94,8 +95,10 @@ java-collection-framework
 │   ├── eszamanli/                java.util.concurrent koleksiyonları
 │   ├── stream/                   Stream API, Collectors, Gatherers
 │   ├── veri_yapilari/            Kendi yazdığımız veri yapıları
+│   ├── alistirmalar/             Alıştırma çözümleri
+│   ├── performans/               Performans karşılaştırması
 │   └── ortak/                    Örneklerin ortak yardımcı sınıfı
-├── src/test/java/...             veri_yapilari JUnit 5 testleri
+├── src/test/java/...             veri_yapilari ve alıştırma testleri (JUnit 5)
 ├── pom.xml
 └── mvnw / mvnw.cmd               Maven Wrapper
 ```
