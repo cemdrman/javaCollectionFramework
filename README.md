@@ -116,3 +116,5 @@ Doğal sıralama (Unicode, yanlış)      : [Ankara, Iğdır, Ordu, Sinop, Uşak
 ```
 
 ### **Projeye katkı sağlamak isteyenler iletişime geçebilir.**
+
+Katkı kuralları için [CONTRIBUTING.md](CONTRIBUTING.md) dosyasına bakabilirsiniz.
