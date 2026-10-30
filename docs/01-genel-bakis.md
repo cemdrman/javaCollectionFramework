@@ -115,6 +115,10 @@ Anahtar → değer eşlemesi mi?
 
 \* amortize &nbsp;&nbsp; \*\* düğüm/iterator konumu biliniyorsa; indeksle silme O(n)
 
+Bu farkları kendi makinenizde gözlemlemek için:
+[`PerformansKarsilastirmaOrnegi.java`](../src/main/java/javacollectionframework/performans/PerformansKarsilastirmaOrnegi.java)
+(ör. 20.000 elemanlı listede rastgele `get(i)`: ArrayList ~0,1 ms, LinkedList ~165 ms).
+
 ## Sürümlere göre önemli yenilikler
 
 | Sürüm | Yenilik |
