@@ -19,8 +19,8 @@ kod içi açıklamalar ve konu anlatımlarıyla **Java 25 (LTS)** üzerinden anl
 ## Çalıştırma
 
 ```bash
-git clone https://github.com/cemdrman/javaCollectionFramework.git
-cd javaCollectionFramework
+git clone https://github.com/cemdrman/java-collection-framework.git
+cd java-collection-framework
 ```
 
 Derleme ve testler:
@@ -61,7 +61,7 @@ Ek kaynak: [OOP Kavramları (PDF)](docs/oop/OOP_Kavramları.pdf)
 ## Proje yapısı
 
 ```text
-javaCollectionFramework
+java-collection-framework
 ├── docs/                         Konu anlatımları
 ├── src/main/java/javacollectionframework
 │   ├── collections/
